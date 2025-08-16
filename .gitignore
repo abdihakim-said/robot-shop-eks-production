@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+diagram_env/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Helm
+charts/
+*.tgz
+
+# Terraform (if used)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive information
+secrets/
+*.secret
+*secret*
+*password*
+*token*
+
+# Generated diagrams (keep only the final ones)
+robot_shop_stunning.png
+robot_shop_dataflow.png
+robot_shop_professional_dark.png
+robot_shop_minimal_dark.png
+deployment_process.png
+technology_stack.png
+
+# Diagram generation scripts (keep for reference but not needed for main repo)
+create_*.py
+iam_policy.json
