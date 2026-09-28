@@ -1,17 +1,19 @@
-# 🏪 Stan's Robot Shop - Production EKS Deployment
+# 🏪 Stan's Robot Shop on AWS EKS: hands-on deployment
 
 [![AWS](https://img.shields.io/badge/AWS-EKS-orange)](https://aws.amazon.com/eks/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.30-blue)](https://kubernetes.io/)
 [![Helm](https://img.shields.io/badge/Helm-v3-green)](https://helm.sh/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A production-ready deployment of Stan's Robot Shop microservices application on AWS EKS, demonstrating enterprise DevOps practices and cloud-native architecture.
+> **Hands-on build, not client work.** A deployment of [Stan's Robot Shop](https://github.com/instana/robot-shop), an open-source microservices demo app, to Amazon EKS in my own AWS account. An earlier version was framed as a production migration; it wasn't. My current Robot Shop platform (GitOps, DevSecOps, SLOs) is [robot-shop-azure-platform](https://github.com/abdihakim-said/robot-shop-azure-platform).
+
+Covers eksctl, IAM OIDC for service accounts, the EBS CSI driver and an ALB ingress, plus the sizing and startup-order lessons.
 
 ## 🏗️ Architecture Overview
 
 ![Robot Shop Architecture](docs/diagrams/robot_shop_architecture.png)
 
-*Complete microservices architecture deployed on AWS EKS with 12 services, multiple databases, and production-ready infrastructure.*
+*12 services and four data stores (MongoDB, MySQL, Redis, RabbitMQ) on AWS EKS.*
 
 ## 🚀 Quick Start
 
